@@ -1,2 +1,2 @@
 PySide6 (for this file)
-Qt Designer 6 (for file .ui)
+WARNING: File .ui will be displayed as XML code
