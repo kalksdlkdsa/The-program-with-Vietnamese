@@ -1,1 +1,2 @@
-PySide6
+PySide6 (for this file)
+Qt Designer 6 (for file .ui)
