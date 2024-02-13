@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="ung_dung_ban_ve">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>10</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ứng dụng bán vé</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>80</y>
+      <width>701</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Thông tin khách hàng</string>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>50</y>
+       <width>49</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Họ tên</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ho_ten">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>50</y>
+       <width>261</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>110</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Giới tính</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="gioi_tinh">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>110</y>
+       <width>68</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nam</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nữ</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>270</y>
+      <width>701</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Dịch vụ</string>
+    </property>
+    <widget class="QCheckBox" name="ca_phe">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>40</y>
+       <width>75</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Cà phê</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="bim_bim">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>50</y>
+       <width>75</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bim bim</string>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="nguoi_lon">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>130</y>
+       <width>42</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>130</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Người lớn</string>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="tre_em">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>190</y>
+       <width>42</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>190</y>
+       <width>49</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Trẻ em</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="tinh_tien">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>520</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tiền trả</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tien_tra">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>520</y>
+      <width>251</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dong">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>520</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>vnđ</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
